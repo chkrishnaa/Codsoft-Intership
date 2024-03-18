@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: PT Sans Narrow;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+}
+
+.icons i {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.icons i:hover {
+    text-align: center;
+    background-color: white;
+    color: rgb(239, 22, 84);
+    transform: scale(1.4);
+    transition: all 0.3s ease;
+}
+
+i {
+    text-align: center;
+}
+
+.nav1 pre {
+    color: white
+}
+
+.nav1 pre:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.nav1 button:hover {
+    background-color: white;
+    color: rgb(239, 22, 84);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    border: solid rgb(239, 22, 84) 1px;
+}
+
+.btn {
+    height: 35px;
+    border: solid white 2px;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(to left, rgb(196, 80, 192), orange);
+}
+
+.LandingPage {
+    font-size: larger;
+    font-weight: bolder;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Alinks {
+    display: flex;
+    gap: 5px;
+    align-items: stretch;
+}
+
+.Alinks a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Alinks a:hover {
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+}
+
+#InputText {
+    flex: 1;
+    height: 30px;
+    padding-left: 10px;
+    border: solid black 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#InputText:hover {
+    border: solid rgb(239, 22, 84) 2px;
+}
+
+.Search i {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: solid black 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Search i:hover {
+    color: white;
+    border: solid rgb(239, 22, 84) 2px;
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+}
+
+.FormalDiscussion {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.FormalDiscussion img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(40%);
+}
+
+.image-text {
+    position: absolute;
+    margin-left: -150px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(70%);
+}
+
+.image-text {
+    display: grid;
+    grid-template-columns: 5fr 95fr;
+}
+
+.empty {
+    height: 200px;
+    width: 2.5px;
+    background-image: linear-gradient(to top, rgb(196, 80, 192), orange);
+    margin-right: 5px;
+}
+
+.read {
+    font-size: large;
+    padding: 10px;
+    border: solid rgb(239, 22, 84) 2px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+}
+
+.read:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    background-image: none;
+    background-color: white;
+    color: rgb(239, 22, 84)
+}
+
+.image-text .Div .read {
+    margin-top: auto;
+    width: fit-content;
+
+}
+
+.image-text .Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.image-text .Div pre,
+h2 {
+    text-transform: uppercase;
+}
+
+.image-text .Div pre,
+h2,
+p,
+button {
+    margin-bottom: 7.5px;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+}
+
+.circle {
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+
+.IconCards {
+    padding: 20px;
+    color: white;
+}
+
+.IconCards i {
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.Title {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.IconCards:hover {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    background-image: none;
+    background-color: white;
+}
+
+.About {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+}
+
+hr {
+    width: 50px;
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+}
+
+.AboutUs .P1 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.AboutUs h2,
+hr,
+.P1,
+.P2,
+button {
+    margin-bottom: 10px;
+}
+
+.ProfessionalMan {
+    margin-top: 50px;
+    height: 300px;
+    float: right;
+    object-fit: cover;
+    border: solid rgb(239, 22, 84) 2px;
+}
+
+.ProfessionalMan img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.Services {
+    padding: 25px 0;
+    background-color: rgb(211, 217, 255);
+}
+
+.Box2 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.outer {
+    height: 200px;
+    width: 250px;
+}
+
+.outer img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.container2 {
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+}
+
+.outer .container2 i {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, rgb(196, 80, 192), orange);
+    z-index: 1;
+}
+
+.outer .container2 div {
+    display: inline-flex
+}
+
+.outer .container2 .inner {
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: -20px;
+}
+
+.Box2 .outer:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.nav1,
+.nav2,
+.FormalDiscussion,
+.container1,
+.About,
+.Services {
+    padding: 0 150px;
+}
