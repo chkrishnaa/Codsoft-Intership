@@ -1,0 +1,102 @@
+ /* 8+(4-2)*9/(3+2*(1+6))*5+4
+ 4.311*0.5431*(-63.425+21.45768)/(45.321*4.1243-569.25346) */
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body {
+     display: grid;
+     place-items: center;
+     height: 100vh;
+ }
+
+ .box {
+     padding: 20px;
+     display: grid;
+     grid-template-rows: 1fr 2fr;
+     border: solid black 1px;
+     height: 400px;
+     width: 300px;
+     border-radius: 5px;
+     background-color: rgb(14, 174, 150);
+ }
+
+ .window1 {
+     padding: 10px;
+     height: 100px;
+     max-height: 100px;
+     overflow-y: auto;
+     word-wrap: inherit;
+     background-color: rgba(0, 0, 0, 0.643);
+     border: solid rgb(0, 0, 0, 0.4) 1px;
+     border-radius: 5px;
+     box-sizing: border-box;
+     box-shadow: 2px 2px 4px 0 gray;
+ }
+
+ .window2 {
+     padding: 10px;
+     margin-top: 20px;
+     height: 50px;
+     max-height: 50px;
+     overflow-y: auto;
+     background-color: rgba(0, 0, 0, 0.643);
+     border: solid rgb(0, 0, 0, 0.4) 1px;
+     border-radius: 5px;
+     box-sizing: border-box;
+     box-shadow: 2px 2px 4px 0 gray;
+ }
+
+ .buttons {
+     margin-top: 30px;
+ }
+
+ .ONOFF {
+     display: grid;
+     grid-template-columns: repeat(2, auto);
+     gap: 5px;
+ }
+
+ .GridHorizontal {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 5px;
+ }
+
+ .GridVertical {
+     display: grid;
+     grid-template-rows: repeat(6, 1fr);
+     gap: 5px;
+ }
+
+ .Box2 {
+     background-image: linear-gradient(to bottom, rgb(0, 183, 255), white, white, white);
+     border-radius: 5px;
+     height: 30px;
+     width: 100%;
+     border: solid black 1px;
+ }
+
+ .Button {
+     background-image: linear-gradient(to bottom, rgb(0, 183, 255), white, white, white);
+     border-radius: 5px;
+     height: 30px;
+     width: 100%;
+     border: solid black 1px;
+ }
+
+ .Box2:hover,
+ .Button:hover {
+     background-image: linear-gradient(to bottom, rgb(32, 78, 58), rgb(214, 211, 211), rgb(214, 211, 211), rgb(214, 211, 211));
+ }
+
+ .green {
+     font-size: large;
+     color: green;
+ }
+
+ .blue {
+     font-size: larger;
+     color: blue;
+ }
