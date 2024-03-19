@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="background-container">
+        <div class="background-image"></div>
+        <div class="content">
+            <nav>
+                <img class="logo"
+                    src="https://static.vecteezy.com/system/resources/thumbnails/011/423/496/small/kk-logo-k-k-design-white-kk-letter-kk-letter-logo-design-initial-letter-kk-linked-circle-uppercase-monogram-logo-vector.jpg"
+                    alt="KK Logo">
+                <div class="navList">
+                    <a href="1">About</a>
+                    <a href="2">Skills</a>
+                    <a href="3">Projects</a>
+                    <a href="4">Achievements</a>
+                    <a href="5">Blogs</a>
+                    <a href="6">Open Source</a>
+                    <a href="#contact" onclick="scrollToContact(event)">Contact Me</a>
+                    <select id="themeSelector" onchange="changeTheme()">
+                        <option>Select Theme</option>
+                        <option value="backgroundImage">Image Background</option>
+                        <option value="backgroundColor">Black Background</option>
+                    </select>
+                </div>
+            </nav>
+
+            <div class="About">
+                <div class="MyInfo">
+                    <h1>Hi all I'm Krishnakumar 👋</h1>
+                    <p>I am a Second Year Information Technology(IT) Student from D.J. Sanghvi College of Engeneering.
+                        <br><br>I
+                        am very passionate about Coding and I love doing things that makes my Creative and I looking
+                        forward to become a Web and App Developer or a Game Developer in future.
+                    </p>
+                    <div class="Icons">
+                        <a href="1"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="2"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="3"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="4"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="6"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="6"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="MyPhoto">
+                    <img src="Krishnakumar.png" alt="My Photo">
+                </div>
+            </div>
+
+
+            <div class="About1">
+                <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/005/637/993/small/man-making-work-concept-in-front-of-computer-with-tutorial-free-vector.jpg">
+                <div class="aboutMe">
+                    <h1>About Me</h1>
+                    <p>Hello, I am a second-year IT student studying at DJ College. Currently, I am in my second year,
+                        and this semester is the fourth. I have a passion for programming, and I aspire to become a web
+                        and app developer in the future.</p>
+                    <p>I find fulfillment in tasks that encourage me to think creatively and innovate in my work.
+                        Alongside, I have a genuine enthusiasm for participating in sports like cricket and badminton,
+                        where I get to engage in physical activity and enjoy moments of friendly competition.</p>
+                    <p>In my leisure time, I delve into coding, relishing the challenge of problem-solving and the
+                        satisfaction of bringing ideas to life through programming. Additionally, I indulge in solving
+                        numerical puzzles or equations, finding a sense of satisfaction in the logical processes
+                        involved. I also having interest in exploring new places.</p>
+                    <div class="NameInfo">
+                        <pre><i class="fa-solid fa-user"></i>   Name :  Krishnakumar Chaurashiya</pre>
+                        <pre><i class="fa-solid fa-phone"></i>  Phone : 123-456-789</pre>
+                        <pre><i class="fa-solid fa-envelope"></i>  Email  : chkrishna6590@gmail.com</pre>
+                    </div>
+                    <div class="Button">
+                        <button><a href="#contact" onclick="scrollToContact(event)">Contact Me</a></button>
+                        <button><a href="./Krishnakumar_Resume.pdf" download>Download CV</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Skills">
+                <div class="Skill1">
+                    <h1>Programming Skills :</h1>
+                    <div class="ProgrammingLanguages">
+                        <div class="percentage-bar">
+                            <div class="subject">C/C++</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 68%;"></div>
+                            </div>
+                            <div class="percentage">68%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="subject">Java</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 65%;"></div>
+                            </div>
+                            <div class="percentage">65%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="subject">Python</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 39%;"></div>
+                            </div>
+                            <div class="percentage">39%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="subject">HTML</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 92%;"></div>
+                            </div>
+                            <div class="percentage">92%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="subject">CSS</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 74%;"></div>
+                            </div>
+                            <div class="percentage">74%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="subject">JavaScript</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 34%;"></div>
+                            </div>
+                            <div class="percentage">34%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Skill2">
+                    <h1>Other Skills :</h1>
+                    <div class="OtherSkills">
+                        <div class="percentage-bar">
+                            <div class="skills">Team Work</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 86%;"></div>
+                            </div>
+                            <div class="percentage">86%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="skills">Adaptability</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 98%;"></div>
+                            </div>
+                            <div class="percentage">98%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="skills">AUTOCAD</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 89%;"></div>
+                            </div>
+                            <div class="percentage">89%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="skills">Problem Solving</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 92%;"></div>
+                            </div>
+                            <div class="percentage">92%</div>
+                        </div>
+                        <div class="percentage-bar">
+                            <div class="skills">Cubing (2x2 / 3x3 / 4x4)</div>
+                            <div class="bar">
+                                <div class="progress" style="width: 98%;"></div>
+                            </div>
+                            <div class="percentage">98%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Projects">
+                <div class="MiniProjects">
+                    <h1>Mini Projects :</h1><br>
+                    <div class="ProjectGrid">
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>GUI Based Statistical Calculator</h3>
+                            <p>I have created a Statistical Calculator using Java Swing program that calculates all
+                                the
+                                possible calculations of Ungrouped data.</p>
+                            <pre>Languages used :  Java  <i class="fa-brands fa-java"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  124        <i class="fa-solid fa-star"></i>  231</pre>
+                                <p>1487 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>GUI Based Arithmetic Calculator</h3>
+                            <p>I have created a graphical user interface (GUI) Calculator that calculates various
+                                expressions including Addition, Subtraction, Multiplication and Division
+                                applications
+                                using libraries like Swing.</p>
+                            <pre>Languages used :  Java  <i class="fa-brands fa-java"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  68        <i class="fa-solid fa-star"></i>  256</pre>
+                                <p>984 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Age Calculator</h3>
+                            <p>I have created a Age Calculator using HTML and JavaScript that calculates the Age of
+                                a
+                                person if a person enter their Birth Date.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  JavaScript  <i class="fa-brands fa-js"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  69        <i class="fa-solid fa-star"></i>  222</pre>
+                                <p>334 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Validation Form</h3>
+                            <p>I have created a Validation Form using HTML, CSS, and JavaScript that gives all the
+                                validation in red color to correct the errors while filling a form.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i> ,  JavaScript  <i class="fa-brands fa-js"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  163        <i class="fa-solid fa-star"></i>  431</pre>
+                                <p>1003 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Happy Diwali Greet Web Page</h3>
+                            <p>I have created a Web Page by using other resources from Instagram that Greets you
+                                Happy
+                                Diwali when you execute the code.<br><br>I used HTML, CSS and JavaScript for
+                                building
+                                this Web Page.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i> ,  JavaScript  <i class="fa-brands fa-js"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  211        <i class="fa-solid fa-star"></i>  292</pre>
+                                <p>25 MB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Making a Website using BootStrap</h3>
+                            <p>I have created a Website using BootStrap as a Framework that includes Cards,
+                                Carausala,
+                                Image Cards, etc. using HTML and CSS.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i></pre>
+                            <pre>Frame Works used :  BootStrap  <i class="fa-brands fa-bootstrap"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  43        <i class="fa-solid fa-star"></i>  98</pre>
+                                <p>513 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Creating a Movie Player</h3>
+                            <p>I have created a Movie Player that searches all the possible movies related to the
+                                search. Build by using HTML, CSS and JavaScript.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i> ,  JavaScript  <i class="fa-brands fa-js"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  101        <i class="fa-solid fa-star"></i>  127</pre>
+                                <p>954 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Calculator</h3>
+                            <p>I have created a HTML, CSS and JavaScript based Calculator that calculates complex
+                                expression by using the 'BODMAS' Rule. I have uses a Stack Data Structure for giving
+                                correct precedence to Brackets first, then Multiplication or Division and then
+                                Addition
+                                or Subtraction.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i> ,  JavaScript  <i class="fa-brands fa-js"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  187        <i class="fa-solid fa-star"></i>  433</pre>
+                                <p>984 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Landing Page</h3>
+                            <p>I have created a Landing Page Using HTML, and CSS including very attractive
+                                transition
+                                affects in this page.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  202        <i class="fa-solid fa-star"></i>  501</pre>
+                                <p>531 KB</p>
+                            </div>
+                        </div>
+                        <div class="Pro1">
+                            <i class="fa-solid fa-book"></i>
+                            <h3>Personal Portfolio</h3>
+                            <p>I have created a Personal Portfolio using Html ans CSS with very attractive and
+                                innovative transitin affects in this web page.</p>
+                            <pre>Languages used :  HTML  <i class="fa-brands fa-html5"></i> ,  CSS <i class="fa-brands fa-css3-alt"></i></pre>
+                            <div>
+                                <pre><i class="fa-solid fa-trophy"></i>  367        <i class="fa-solid fa-star"></i>  873</pre>
+                                <p>2001 KB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BigProjects">
+                    <h1>Big Projects :</h1><br>
+                    <h2>Not Build any Projects yet !!!</h2>
+                </div>
+            </div>
+            <div class="Achievements">
+                <h1>Achievements :</h1>
+                <div class="achievements">
+                    <div class="MainPoints">
+                        <h2 class="Points">Participation in Hackathons :</h2>
+                        <h2 class="Points">Attending Workshops and Conferences :</h2>
+                        <h2 class="Points">Receiving Recognition or Awards :</h2>
+                        <h2 class="Points">Securing Internships or Job Placements :</h2>
+                        <h2 class="Points">Continuous Learning and Skill Improvement :</h2>
+                    </div>
+                    <div class="MainDescriptions">
+                        <p class="Descriptions">Participating in hackathons allows you to work on real-world
+                            problems,
+                            collaborate with peers, and build innovative solutions within a limited time frame.</p>
+                        <p class="Descriptions">Attending workshops, seminars, and conferences related to web
+                            development can provide valuable insights, networking opportunities, and exposure to
+                            industry trends and best practices.</p>
+                        <p class="Descriptions">Winning awards, accolades, or recognition in web development
+                            competitions or community forums can bolster your credibility and reputation within the
+                            industry.</p>
+                        <p class="Descriptions">Landing internships or job placements at reputable companies or
+                            startups
+                            in the web development domain signifies your readiness for professional work and
+                            provides
+                            valuable hands-on experience.</p>
+                        <p class="Descriptions">Demonstrating a commitment to continuous learning, staying updated
+                            with
+                            emerging technologies, and expanding your skill set are ongoing achievements that are
+                            crucial for long-term success in web app development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Services">
+                <h1>Services :</h1>
+                <h3>I provide the following Services</h3>
+                <div class="services">
+                    <div>
+                        <i class="fa-brands fa-webflow"></i>
+                        <h3>Web Design</h3>
+                        <p>Design and develop responsive and user-friendly websites tailored to your needs, utilizing
+                            the latest technologies and best practices in web development.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-tachograph-digital"></i>
+                        <h3>Graphic Design</h3>
+                        <p>Craft visually stunning graphics and designs for branding, marketing materials, and digital
+                            media, ensuring your message stands out with creativity and professionalism.</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-lightbulb"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Create intuitive and visually appealing user interfaces, focusing on user experience design
+                            principles to enhance usability and satisfaction across digital platforms.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-shop-lock"></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Drive online growth and engagement through strategic digital marketing campaigns, leveraging
+                            social media, SEO, email marketing, and other channels to reach your goals.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-people-arrows"></i>
+                        <h3>Consulting Services</h3>
+                        <p>Provide expert advice and guidance on various aspects of business development, technology
+                            implementation, or career advancement, tailored to your specific needs and goals.</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-galactic-senate"></i>
+                        <h3>SEO Consulting</h3>
+                        <p>Improve your website's visibility and ranking on search engines with comprehensive SEO
+                            strategies, including keyword research, on-page optimization, and link building tactics.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cash-register"></i>
+                        <h3>E-Commerce Solutions</h3>
+                        <p>Develop custom e-commerce websites or integrate existing platforms, optimizing for sales
+                            conversions, user experience, and seamless transactions for your online store.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Contact" id="contact">
+                <h1>Contact Me :</h1>
+                <form class="Form">
+                    <div>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <input type="text" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Give us your Feedback"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="footer">
+                <div class="LogoName">
+                    <img class="logo"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/011/423/496/small/kk-logo-k-k-design-white-kk-letter-kk-letter-logo-design-initial-letter-kk-linked-circle-uppercase-monogram-logo-vector.jpg"
+                        alt="KK Logo">
+                    <p>Krishnakumar Chaurashiya</p>
+                </div>
+                <div class="Profile">
+                    <p>View my profile on</p>
+                    <div class="Icons1">
+                        <a href="1"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="2"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="3"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="4"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="6"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="6"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <p>If any issue, click on <a href="#contact" onclick="scrollToContact(event)">contact us </a>link</p>
+                <div class="NameInfo1">
+                    <pre>Another way to contact me via Email or via Phone No. given below</pre>
+                    <pre><i class="fa-solid fa-phone"></i>  Phone : 123-456-789</pre>
+                    <pre><i class="fa-solid fa-envelope"></i>  Email  : chkrishna6590@gmail.com</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function scrollToContact(event) {
+            event.preventDefault();
+            const targetId = event.target.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+        function changeTheme() {
+            var select = document.getElementById("themeSelector");
+            var selectedValue = select.options[select.selectedIndex].value;
+
+            var content = document.querySelector(".content");
+
+            if (selectedValue === "backgroundImage") {
+                content.style.backgroundImage = "url('https://st3.depositphotos.com/14749846/19504/i/450/depositphotos_195049776-stock-photo-gray-background-gradient-center-reflection.jpg')";
+                backgroundImage.style.position = "fixed";
+                backgroundImage.style.top = "0";
+                backgroundImage.style.left = "0";
+                backgroundImage.style.width = "100%";
+                backgroundImage.style.height = "100%";
+                backgroundImage.style.backgroundSize = "cover";
+                backgroundImage.style.backgroundPosition = "center";
+                backgroundImage.style.zIndex = "-1";
+            } else if (selectedValue === "backgroundColor") {
+                content.style.backgroundImage = "none";
+                content.style.backgroundColor = "black";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
